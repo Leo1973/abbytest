@@ -1,0 +1,11 @@
+python pareto.py \
+           input1.in  \
+           -m 0 \
+           --output my_pareto_set.txt \
+           --delimiter=' ' \
+           --print-only-objectives \
+           --header=1 \
+           --blank \
+           --comment="#" \
+           --contribution \
+           --line-number
